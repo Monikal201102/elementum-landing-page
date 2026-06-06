@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import FeatureSection from "./components/FeatureSection";
 import Services from "./components/Services";
@@ -13,6 +14,7 @@ import Polygon3 from "./assets/Polygon3.png";
 function App() {
   return (
     <>
+      <Navbar />
 
       <Hero />
 

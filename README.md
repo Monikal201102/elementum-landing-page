@@ -10,21 +10,22 @@ Elementum is a modern and visually appealing landing page built using React.js a
 
 The website consists of multiple sections including:
 
-- Hero Section
-- Feature Sections
-- Services Section
-- Testimonials Section
-- Newsletter Subscription CTA
-- Footer
+* Navigation Bar
+* Hero Section
+* Feature Sections
+* Services Section
+* Testimonials Section
+* Newsletter Subscription CTA
+* Footer
 
 ---
 
 ## Technologies Used
 
-- React.js
-- Vite
-- JavaScript (ES6+)
-- CSS3
+* React.js
+* Vite
+* JavaScript (ES6+)
+* CSS3
 
 ---
 
@@ -39,6 +40,7 @@ elementum-landing-page/
 │   ├── assets/
 │   │
 │   ├── components/
+│   │   ├── Navbar.jsx
 │   │   ├── Hero.jsx
 │   │   ├── FeatureSection.jsx
 │   │   ├── Services.jsx
@@ -46,6 +48,7 @@ elementum-landing-page/
 │   │   └── FooterCTA.jsx
 │   │
 │   ├── styles/
+│   │   ├── navbar.css
 │   │   ├── hero.css
 │   │   ├── feature.css
 │   │   ├── services.css
@@ -67,39 +70,55 @@ elementum-landing-page/
 
 ## Features
 
-### Hero Section
-- Large headline typography
-- Decorative vector highlights
-- Floating profile images
-- Responsive layout
+### Navigation Bar
 
-### Feature Section
-- Alternating image and text layouts
-- Decorative polygons and vectors
-- Curved connecting line design
+* Company logo
+* Navigation links
+* Custom menu icon
+* Responsive layout
+
+### Hero Section
+
+* Large headline typography
+* Decorative vector highlights
+* Floating profile images
+* Responsive design
+
+### Feature Sections
+
+* Alternating image and text layouts
+* Decorative polygons and vectors
+* Curved connecting line elements
+* Responsive structure
 
 ### Services Section
-- Service listings with navigation arrows
-- Highlighted heading elements
-- Decorative confidence badge
+
+* Service listings with navigation arrows
+* Decorative heading elements
+* Highlighted confidence badge
+* Responsive alignment
 
 ### Testimonials Section
-- Customer testimonial card
-- Decorative quotation marks
-- Floating profile images
-- Responsive positioning
+
+* Customer testimonial card
+* Decorative quotation marks
+* Floating profile images
+* Responsive positioning
 
 ### Newsletter Subscription CTA
-- Large call-to-action heading
-- Subscribe button
-- Decorative vector and shape elements
+
+* Large call-to-action heading
+* Subscribe button
+* Decorative vector and shape elements
+* Footer integration
 
 ### Footer
-- Company Links
-- Terms & Policies
-- Social Media Links
-- Contact Information
-- Copyright Section
+
+* Company links
+* Terms & Policies
+* Social media links
+* Contact information
+* Copyright section
 
 ---
 
@@ -111,7 +130,7 @@ Clone the repository:
 git clone <repository-url>
 ```
 
-Navigate to project directory:
+Navigate to the project folder:
 
 ```bash
 cd elementum-landing-page
@@ -123,7 +142,7 @@ Install dependencies:
 npm install
 ```
 
-Start development server:
+Start the development server:
 
 ```bash
 npm run dev
@@ -131,15 +150,21 @@ npm run dev
 
 ---
 
-## Production Build
+## Available Scripts
 
-Create production build:
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+### Build for Production
 
 ```bash
 npm run build
 ```
 
-Preview production build:
+### Preview Production Build
 
 ```bash
 npm run preview
@@ -151,9 +176,9 @@ npm run preview
 
 The application is responsive and optimized for:
 
-- Desktop Screens
-- Tablets
-- Mobile Devices
+* Desktop Screens
+* Tablets
+* Mobile Devices
 
 ---
 
