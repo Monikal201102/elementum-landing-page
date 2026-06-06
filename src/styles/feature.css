@@ -1,0 +1,188 @@
+.feature-section {
+  position: relative;
+  padding: 100px 0;
+}
+
+.feature-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+
+  position: relative;
+  z-index: 2;
+}
+
+.feature-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.heading-wrapper {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 54px;
+  line-height: 1.15;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 25px;
+}
+
+.feature-text p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.9;
+  margin-bottom: 30px;
+}
+
+/* FEATURE DECORATIONS */
+
+.ellipse734 {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 360px;
+  z-index: 0;
+  opacity: 3.5;
+}
+
+.feature-curve {
+  position: absolute;
+  left: 35%;
+  top: 500px;
+  width: 1000px;
+  z-index: 0;
+  opacity: 0.6;
+}
+
+/* IMAGE */
+
+.feature-image {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.main-image {
+  width: 420px;
+  max-width: 100%;
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+
+/* HIGHLIGHT */
+
+.highlight-word {
+  position: relative;
+  display: inline-block;
+}
+
+.word-highlight {
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+  width: 100%;
+  z-index: -1;
+}
+
+/* VECTOR */
+
+.vector-top {
+  width: 240px;
+  display: block;
+  margin-top: -150px;
+  margin-bottom: 140px;
+}
+
+.vector-bottom {
+  width: 240px;
+  display: block;
+  margin-left: auto;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+/* READ MORE */
+
+.read-more {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+}
+
+.read-more img {
+  width: 70px;
+}
+
+/* POLYGONS */
+
+.polygon-back {
+  position: absolute;
+  width: 140px;
+  z-index: 1;
+}
+
+.polygon-right {
+  top: 20px;
+  right: 10px;
+}
+
+.polygon-left {
+  left: 10px;
+  top: 80px;
+}
+
+.polygon-front {
+  position: absolute;
+  width: 140px;
+  bottom: -20px;
+  right: 60px;
+  z-index: 3;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .feature-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+  }
+
+  .feature-title {
+    font-size: 36px;
+  }
+
+  .main-image {
+    width: 320px;
+  }
+
+  .polygon-back,
+  .polygon-front,
+  .ellipse734,
+  .feature-curve {
+    width: 80px;
+  }
+
+  .vector-top,
+  .vector-bottom {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .read-more {
+    justify-content: center;
+  }
+}

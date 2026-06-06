@@ -1,0 +1,188 @@
+.testimonials {
+  position: relative;
+  max-width: 1200px;
+  margin: 140px auto;
+  min-height: 700px;
+  padding: 40px;
+}
+
+/* HEADING */
+
+.testimonial-heading {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.testimonial-heading h2 {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #2d2d2d;
+}
+
+.what-word,
+.about-word {
+  position: relative;
+  display: inline-block;
+}
+
+.what-highlight {
+  position: absolute;
+  width: 120%;
+  left: -7%;
+  bottom: 15px;
+  z-index: -1;
+}
+
+.about-vector {
+  position: absolute;
+  width: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -12px;
+}
+
+/* MESSAGE */
+
+.testimonial-card {
+  position: relative;
+  width: 540px;
+  min-height: 320px;
+  margin: 0 auto;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.quote-left-1 {
+  position: absolute;
+  width: 30px;
+  left: 310px;
+  top: 250px;
+  opacity: 1;
+  z-index: 1;
+}
+
+.quote-left-2 {
+  position: absolute;
+  width: 30px;
+  left: 340px;
+  top: 250px;
+  opacity: 1;
+  z-index: 1;
+}
+
+.quote-right-1 {
+  position: absolute;
+  width: 30px;
+  right: 515px;
+  bottom: 250px;
+  opacity: 1;
+  z-index: 1;
+}
+
+.quote-right-2 {
+  position: absolute;
+  width: 30px;
+  right: 485px;
+  bottom: 250px;
+  opacity: 1;
+  z-index: 1;
+}
+
+.testimonial-card p {
+  max-width: 430px;
+  margin: 0 auto;
+
+  color: #666;
+  font-size: 20px;
+  line-height: 1.8;
+
+  position: relative;
+  z-index: 2;
+}
+
+/* FLOATING IMAGES */
+
+.t-img {
+  position: absolute;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.t-img1 {
+  width: 60px;
+  left: 140px;
+  top: 180px;
+}
+
+.t-img2 {
+  width: 50px;
+  left: 90px;
+  top: 310px;
+}
+
+.t-img3 {
+  width: 140px;
+  left: 150px;
+  top: 380px;
+}
+
+.t-img4 {
+  width: 75px;
+  left: 80px;
+  top: 560px;
+}
+
+.t-img5 {
+  width: 70px;
+  right: 180px;
+  top: 250px;
+}
+
+.t-img6 {
+  width: 120px;
+  right: 30px;
+  top: 200px;
+}
+
+.t-img7 {
+  width: 85px;
+  right: 160px;
+  top: 390px;
+}
+
+.t-img8 {
+  width: 180px;
+  right: -10px;
+  top: 500px;
+}
+
+@media (max-width: 768px) {
+
+  .testimonial-heading h2 {
+    font-size: 40px;
+  }
+
+  .testimonial-card {
+    width: 100%;
+  }
+
+  .testimonial-card p {
+    font-size: 16px;
+  }
+
+  .t-img {
+    display: none;
+  }
+}
